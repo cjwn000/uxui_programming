@@ -9,13 +9,15 @@ cjwn000/uxui_programming <br>
 ├─ assets <br>
 └─ README.md <br>
 
+
 ## 02. 폴더 설명
 | 폴더          | 설명                      |
 | ----------- | ----------------------- |
-| assignments | 수업 과제 파일을 저장하는 폴더       |
-| projects    | 팀 프로젝트 또는 개인 프로젝트 결과물   |
+| assignments | 수업 과제 파일 & 학습 내용       |
+| projects    | 개인 프로젝트   |
 | design      | UX/UI 디자인 파일 및 시안       |
 | assets      | 이미지, 아이콘, 폰트 등 프로젝트 리소스 |
+
 
 ## 03. 사용 기술
 - HTML5
@@ -23,6 +25,7 @@ cjwn000/uxui_programming <br>
 - JavaScript
 - React (예정)
 - Angular (예정)
+
 
 ## 04. 계획
 - GitHub Pages를 활용하여 프로젝트 웹사이트 배포
