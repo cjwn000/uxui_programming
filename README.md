@@ -1,2 +1,15 @@
-# uxui_programming
-MJC 1st semester UX/UI programming
+# uxui_programming repository
+
+## 레파지토리 구조
+
+cjwn000/uxui_programming
+│
+├─ assignments
+│
+├─ projects
+│
+├─ design
+│
+├─ assets
+│
+└─ README.md
