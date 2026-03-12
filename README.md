@@ -3,20 +3,22 @@
 
 ## 01. 레파지토리 구조
 cjwn000/uxui_programming <br>
-├─ assignments <br>
-├─ projects <br>
-├─ design <br>
-├─ assets <br>
+├─ html <br>
+├─ css <br>
+├─ js <br>
+├─ img <br>
+├─ hp <br>
 └─ README.md <br>
 
 
 ## 02. 폴더 설명
 | 폴더          | 설명                      |
 | ----------- | ----------------------- |
-| assignments | 수업 과제 파일 & 학습 내용       |
-| projects    | 개인 프로젝트   |
-| design      | UX/UI 디자인 파일 및 시안       |
-| assets      | 이미지, 아이콘, 폰트 등 프로젝트 리소스 |
+| html | 수업 과제 파일 & 학습 내용       |
+| css    | 학교 과제 style   |
+| js      | 학교 과제 js      |
+| img      | 이미지, 아이콘, 폰트 등 프로젝트 리소스 |
+| hp      | 학기 프로젝트 저장      |
 
 
 ## 03. 사용 기술
