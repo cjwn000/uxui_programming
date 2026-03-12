@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documents</title>
 </head>
 <body>
-    <h2>2025101268 장지원 홈페이지</h2>
+    <h1>2025101268 장지원</h1><hr>
+    <a href="javascript:void(0)" onclick="
+        document.open();
+        document.write(`
+            <frameset rows='100, *' border='1'>
+                <frame src='hw.html' name='header'>
+                <frameset cols='200, *'>
+                    <frame src='left.html' name='left'>
+                    <frame src='about:blank' name='menu'>
+                </frameset>
+            </frameset>
+        `);
+        document.close();
+    " style="font-size:20px;">homework</a>
 </body>
 </html>
