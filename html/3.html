@@ -4,8 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            border: 0.5px solid #ff0000; /* 바깥 테두리 */
+            caption-side: bottom;
+        }
+        caption {
+            font-size: 10px;
+        }
+        th, td {
+            border: 0.5px solid #ff0000; /* 내부 선 */
+            padding: 1px;
+            width: 100px;
+            height: 20px;
+            font-size: 10px;
+        }
+        h1 {
+        text-shadow: 10px -10px 10px rgba(2, 134, 2, 0.7);
+        }
+        th:nth-child(5),
+        td:nth-child(5) {
+            width: 20px;
+        }
+        fieldset {
+            border : 0.01px solid rgb(58, 58, 58);
+            width: 500px;
+        }
+        div {
+            transform: scale(2);
+            transform-origin: top left; /* 왼쪽 위 기준으로 2배 확대 */
+        }
+    </style>
 </head>
 <body>
-    <p>3주차 과제입니다.</p>
+    <h1 style = "color:#ff0000; text-shadow: 2px 2px 3px black">3차시 과제</h1>
+    <p>i. <a href = "https://www.google.com" target="_blank">google.com 방문</a></p>
+    <p>target 속성이 "_blank"이므로 , 링크는 새로운 탭에서 열립니다.</p>
+    <p>ii. <a href = "https://www.google.com" target="_self">google.com 방문</a></p>
+    <p>target 속성이 "_self"이므로 , 링크는 해당 창에서 열립니다.</p>
+    <hr>
+    
+    <div>
+    <table>
+        <caption>시간표</caption>
+        <tr>
+            <th>mon</th>
+            <th>tue</th>
+            <th>wed</th>
+            <th>thu</th>
+            <th>fri</th>
+        </tr>
+        <tr>
+            <td>c programming</td>
+            <td>web programming</td>
+            <td>mobile programming</td>
+            <td>java programming</td>
+            <td rowspan="3">휴강</td>
+        </tr>
+        <tr>
+            <td colspan="4" class="lunch">점심시간</td>
+        </tr>
+        <tr>
+            <td>c programming</td>
+            <td>web programming</td>
+            <td>mobile programming</td>
+            <td>java programming</td>
+        </tr>
+    </table>
+    <br><br><br><br><br>
+    </div>
+
+    <hr>
+    <h1>회원 가입을 환영합니다</h1>
+    <form>
+    <fieldset>
+        <legend>사용자 정보</legend>
+        <ul>
+            아이디 <input type="text" placeholder="4자 ~ 10자 사이, 공백없이"><br>
+            이메일 <input type="email"><br>
+            비밀번호 <input type="password" placeholder="문자와 숫자, 특수 기호 포함"><br>
+            비밀번호 확인 <input type="password"><br>
+                가입 경로 
+                <select>
+                    <option>블로그</option>
+                    <option>지인 추천</option>
+                    <option>광고</option>
+                </select><br>
+                메모
+                <textarea rows="4" cols="40" placeholder="남길 말씀이 있다면 여기에"></textarea>
+        </ul>
+    </fieldset>
+
+    <fieldset>
+        <legend>이벤트와 새로운 소식</legend>
+        <input type="radio" name="mail"> 메일 수신
+        <input type="radio" name="mail" checked> 메일 수신 안 함
+    </fieldset>
+
+    <br>
+    <button type="submit">가입하기</button>
+    <button type="reset">취소</button>
+
+    </form>
 </body>
 </html>
